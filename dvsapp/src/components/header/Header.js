@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
+import logo from '../../images/logo.png'
 
 export class Header extends Component {
     render() {
         return (
-            <div>
-                
+            <div className = 'navBar'>
+                <img className = 'navLogo' src = {logo} />
+                <button><a href = '#'>Home</a></button>
             </div>
         )
     }
