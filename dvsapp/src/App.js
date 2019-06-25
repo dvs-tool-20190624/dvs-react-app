@@ -11,7 +11,7 @@ export class App extends Component {
     return (
       <div>
         <div>
-          <Route path = '/' component = {Mainpage} />
+          <Route exact path = '/' component = {Mainpage} />
         </div>
         <div>
           <PrivateRoute path = '/budget' component = {Budget} />
