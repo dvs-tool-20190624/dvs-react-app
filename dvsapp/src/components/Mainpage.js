@@ -18,9 +18,11 @@ export class Mainpage extends Component {
                 </div>
                 <div className = 'form'>
                     <div className = 'login'>
+                        <h3>Login</h3>
                         <Login />
                     </div>
                     <div className = 'register'>
+                        <h3>Register</h3>
                         <Register />
                     </div>
                 </div>
