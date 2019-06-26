@@ -23,7 +23,7 @@ export class Login extends Component {
         this.props.loginSuccess(this.state.creds)
     }
     render() {
-        if(this.props.isloggedin){
+        if(this.props.isLoggedIn){
             this.props.history.push('/budget')
         }
         console.log(this.props.loggedin, this.props.isfetching)
@@ -49,7 +49,7 @@ export class Login extends Component {
     }
 }
 const mapStateToProps = state =>({
-    isloggedin:state.logginIn,
+    isLoggedIn:state.logginIn,
 })
 
 export default connect (

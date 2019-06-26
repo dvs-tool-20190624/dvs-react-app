@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 const Card = props => {
     return (
         <div className = 'card'>
-            <div className = 'headline'>{props.card.headline}</div>
-            <div className = 'amountField'></div>
+            <div className = 'fieldName'>{props.card.headline}</div>
+            <div className = 'fieldAmount'></div>
         </div>
     );
 };

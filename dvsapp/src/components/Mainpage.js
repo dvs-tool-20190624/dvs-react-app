@@ -12,9 +12,11 @@ export class Mainpage extends Component {
                     <Header />
                 </div>
                 <div className = 'main'>
-                    <h1>Welcome</h1>
-                    <h4>to</h4>
-                    <h2>Your Survivors Tool</h2>
+                    <h1>
+                        <span className = 'mainOne'>Welcome</span>
+                        <span className = 'mainTwo'>to</span>
+                        <span className = 'mainThree'>Your Survivors Tool</span>
+                    </h1>
                 </div>
                 <div className = 'form'>
                     <div className = 'login'>
