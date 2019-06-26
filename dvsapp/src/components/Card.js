@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class RequiedCosts extends Component {
+export class Card extends Component {
     render() {
         return (
             <div>
@@ -10,4 +10,4 @@ export class RequiedCosts extends Component {
     }
 }
 
-export default RequiedCosts
+export default Card

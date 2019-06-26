@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Header from './header/Header'
-import BudgetForm from './BudgetForm'
+
 import Footer from './footer/Footer'
 
 export class Budget extends Component {
@@ -8,7 +8,7 @@ export class Budget extends Component {
         return (
             <div>
                 <Header />
-                <BudgetForm />
+                
                 <Footer />
             </div>
         )
