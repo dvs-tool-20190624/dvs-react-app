@@ -1,0 +1,6 @@
+[build]
+  base = "dvsapp/"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
