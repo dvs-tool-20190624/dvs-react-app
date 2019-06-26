@@ -1,13 +1,19 @@
 import React, { Component } from 'react'
+import Card from './Card'
+import PropTypes from 'prop-types'
 
-export class Cards extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        )
-    }
+const Cards = props => {
+    return (
+        <div classname = 'cardsContainer'>
+            { props.cards.map( card => (
+                < Card card ={card} key={card.headline} />
+            ))}
+        </div>
+    )
+}
+
+Cards.propTypes = {
+    cards: PropTypes.array.isRequired,
 }
 
 export default Cards
