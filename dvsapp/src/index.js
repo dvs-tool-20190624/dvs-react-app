@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+// eslint-disable-next-line
 import { createStore, applyMiddleware, Provider } from "redux";
 import thunk from 'redux-thunk';
 import logger from 'redux-logger'
 import {BrowserRouter as Router} from 'react-router-dom'
 import { BudgetProvider } from './data'
 
+// eslint-disable-next-line
 const store = createStore(
     applyMiddleware(thunk,logger)
 )

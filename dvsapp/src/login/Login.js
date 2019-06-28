@@ -33,7 +33,7 @@ export default class Login extends Component {
         return (
             <div className = 'login'>
                 <form onSubmit = {this.handleSubmit}>
-                    <FormGroup controlId = 'username' bsSize = 'large'>
+                    <FormGroup controlId = 'username'>
                         <FormLabel>Username</FormLabel>
                         <FormControl
                             autoFocus
@@ -42,7 +42,7 @@ export default class Login extends Component {
                             onChange = {this.handleChange}
                         />
                     </FormGroup>
-                    <FormGroup controlId="password" bsSize="large">
+                    <FormGroup controlId="password">
                         <FormLabel>Password</FormLabel>
                         <FormControl
                             value={this.state.password}
@@ -55,7 +55,7 @@ export default class Login extends Component {
                         onClick = {this.handleClick}
                         
                         block
-                        bsSize = 'large'
+                        
                         disabled = {!this.validateForm()}
                         type = 'submit'
                     >
