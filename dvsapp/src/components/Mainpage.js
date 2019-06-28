@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import Header from './header/Header'
-import Footer from './footer/Footer'
-import Login from './login/Login'
-import Register from './login/Register'
+import Header from '../header/Header'
+import Footer from '../footer/Footer'
+import Login from '../login/Login'
+import Register from '../login/Register'
 
-export class Mainpage extends Component {
+export class MainPage extends Component {
     render() {
         return (
             <div>
@@ -36,4 +36,4 @@ export class Mainpage extends Component {
     }
 }
 
-export default Mainpage
+export default MainPage

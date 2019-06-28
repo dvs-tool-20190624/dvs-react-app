@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from './header/Header'
-import Footer from './footer/Footer'
-import Budget from './budget/Budget'
+import Header from '../header/Header'
+import Footer from '../footer/Footer'
+import Budget from '../budget/Budget'
 import ItemList from './ItemList'
 
 function MainTwo() {
