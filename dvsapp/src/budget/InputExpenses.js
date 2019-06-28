@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BudgetConsumer } from '../../data'
+import { BudgetConsumer } from '../data'
 
 class InputExpenses extends Component {
     state = {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { BudgetConsumer } from '../../data';
+import { BudgetConsumer } from '../data';
 
 const BalanceDisplay = () => {
     return (

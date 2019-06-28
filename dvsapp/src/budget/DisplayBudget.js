@@ -11,5 +11,4 @@ const DisplayBudget = () => {
         </div>
     )
 }
-
 export default DisplayBudget
